@@ -1,0 +1,21 @@
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    padding: 1rem;
+}
+span{
+    height: 50px;
+    width: fit-content;
+    background-color: lightgreen;
+}
+.top{
+
+}
+.meio{
+    align-self: center;
+
+}
+.baixo{
+    align-self: end;
+}

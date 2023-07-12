@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixando conteudo</title>
+</head>
+<style>
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr  1fr;
+        height: 300px ;
+        padding: 1rem;
+    }
+    span{
+        height: 50px;
+        width: fit-content;
+        background-color: #1f5d96;
+        color: beige;
+
+    }
+    /*todas as  vezes  que  iniciamos com um (.) ponto  estamos nos referenciando as classes filhas dentro do span*/
+    .inicio{
+        align-self: center;
+    }
+    .meio{
+        align-self: baseline;
+    }
+    .final{
+        align-self: last baseline;
+    }
+</style>
+<body>
+    <div class="conteudo">
+        <span class="inicio"> Vou ficar no início</span>
+        <span class="meio">vou ficar no meio</span>
+        <span class="final">vou ficar no final</span>
+    </div>
+</body>
+</html>

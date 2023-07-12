@@ -1,0 +1,28 @@
+.pai{
+    display: flex;
+    flex-direction: row;
+    gap:5px;    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+    text-align:center;
+
+}
+.primeiro-filho{
+    background-color: black;
+    color:#f2f2f2;
+    height:200px;
+    width: 200px;
+    border-radius: 15%;
+    
+
+
+}
+.segundo-filho{
+height: 200px;
+width:200px;
+background-color:#ffff;
+border-radius: 10px;
+}
