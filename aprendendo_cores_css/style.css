@@ -1,0 +1,21 @@
+h2{
+    color: #5188ff;
+    background-color: #dd88ff ;
+}
+ h1{
+    background-color: #5188ff;
+    /* opacity: 0.8; valor de opacidade da cor do fundo e da letra também*/
+    color: #45cb50;
+ }
+
+ p{/* seletor de cor*/
+    background-color: #2acf38;/* cor do fundo em hexadecimal*/
+    color: #e9d9f0;/* cor do texto em hexadecimal*/
+ }
+ body{
+    background-image:url(lapis.png);/*para usar uma imagem de fundo, é importante  colocar url para achar a referência da figura*/
+    background-repeat: 
+    repeat-y;/* cria um fundo de repetição no eixo escolhido, nesse exemplo,  foi usado na vertical.*/
+
+    
+ }
